@@ -17,3 +17,37 @@
     height: 100vh;
     min-height: 600px;
 }
+
+.barra {
+    display: flex;
+    /*Alinea el lado derecho y izquierdo*/
+    justify-content: space-between;
+    /*Alinea el contenido de forma vertical*/
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+/*Navegacion*/
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    /*esto elimina la linea*/
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+/*hover, hace que al pasar por encima de la barra de navegacion cambie el color*/
+
+.navegacion a:hover {
+    color: #71B100;
+}
+
+
+/*espacio entre elementos al ultimo*/
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
