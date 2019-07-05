@@ -5,23 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Mi empresa</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <a href="/">
-            <img src="img/logo.svg" alt="Logo ">
-        </a>
 
-        <nav>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
-            <a target="_blank" href="http://google.com">G</a>
-        </nav>
-        <h1>Venta de Casas</h1>
+    <header class="site-header inicio">
+        <!-- contenedor -->
+        <div class="contenedor">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logo ">
+                </a>
+
+                <nav>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a target="_blank" href="http://google.com">G</a>
+                </nav>
+            </div>
+
+            <h1>Venta de Casas</h1>
+        </div>
     </header>
 
     <section>
@@ -29,18 +37,18 @@
 
         <div>
             <img src="img/icono1.svg" alt="Icono Seguridad">
-            <h3>Seguridad</h3>
+            <h3 class="encabezado">Seguridad</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat dolorum earum necessitatibus obcaecati optio. Quam perspiciatis, ipsam ducimus, iure quia assumenda inventore qui voluptatibus at alias ratione harum, aut nesciunt?</p>
         </div>
 
         <div>
             <img src="img/icono2.svg" alt="Icono Precio">
-            <h3>El mejor precio</h3>
+            <h3 class="encabezado">El mejor precio</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat dolorum earum necessitatibus obcaecati optio. Quam perspiciatis, ipsam ducimus, iure quia assumenda inventore qui voluptatibus at alias ratione harum, aut nesciunt?</p>
         </div>
         <div>
             <img src="img/icono3.svg" alt="Icono a tiempo">
-            <h3>A tiempo</h3>
+            <h3 class="encabezado">A tiempo</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat dolorum earum necessitatibus obcaecati optio. Quam perspiciatis, ipsam ducimus, iure quia assumenda inventore qui voluptatibus at alias ratione harum, aut nesciunt?</p>
         </div>
     </section>
@@ -93,6 +101,10 @@
     </section>
     <section>
         <h3>Reseñas</h3>
+        <header>
+            <p>Escrito por ...</p>
+
+        </header>
         <blockquote>
             Aquí van las reseñas
 
