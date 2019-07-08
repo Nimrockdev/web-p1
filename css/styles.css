@@ -1,10 +1,39 @@
+html {
+    font-size: 62.5%;
+    /*Reset para REMS, 62.5 es = a 10px de 16px */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6 rem;
+}
+
+
 /*Global*/
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
+    /*igual a 1200 px*/
+    /* max-width: 1200px; */
     /* margin-left: auto;
     margin-right: auto; */
     margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
 }
 
 
@@ -15,7 +44,20 @@
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 60rem;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header h1 {
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 10 rem;
 }
 
 .barra {
@@ -34,7 +76,9 @@
     color: white;
     text-decoration: none;
     /*esto elimina la linea*/
-    font-size: 18px;
+    /* font-size: 18px;     */
+    font-size: 1.8rem;
+    /*igual a 18px*/
     margin-right: 20px;
 }
 
